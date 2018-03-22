@@ -8,6 +8,7 @@
     ],
     "exposed-modules": [
         "GraphQL.Client.Http",
+        "GraphQL.Client.Http.Util",
         "GraphQL.Request.Builder",
         "GraphQL.Request.Builder.Arg",
         "GraphQL.Request.Builder.Variable"
