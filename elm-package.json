@@ -1,7 +1,7 @@
 {
     "version": "1.8.0",
     "summary": "A GraphQL request builder and HTTP client",
-    "repository": "https://github.com/jamesmacaulay/elm-graphql.git",
+    "repository": "https://github.com/webbhuset/elm-graphql.git",
     "license": "BSD3",
     "source-directories": [
         "src"
