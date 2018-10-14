@@ -120,8 +120,8 @@ id =
 {-| Changes the defined name of scalar.
 -}
 namedType : String -> VariableSpec NonNull a -> VariableSpec NonNull a
-namedType name (VariableSpec _ typeRef convert) =
-    VariableSpec NonNull (TypeRef.namedType name) convert
+namedType name_ (VariableSpec _ typeRef convert) =
+    VariableSpec NonNull (TypeRef.namedType name_) convert
 
 
 {-| Constructs a `VariableSpec` for a GraphQL Enum type. The first argument is the name of an Enum type as defined in the GraphQL schema being used. The second argument is a function that converts values of some arbitrary `source` type into `String` symbols that correspond to the Enum's possible values as defined in the schema.
